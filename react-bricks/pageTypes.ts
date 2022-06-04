@@ -6,7 +6,7 @@ const pageTypes: types.IPageType[] = [
     pluralName: 'pages',
     defaultLocked: false,
     defaultStatus: types.PageStatus.Published,
-    getDefaultContent: () => [],
+    getDefaultContent: () => ['single-image'],
     excludedBlockTypes: [
       'title',
       'paragraph',
